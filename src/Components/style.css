@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: burlywood;
+}
+
+.subtle {
+  color: #aaa;
+}
+
+.container {
+  width: 50%;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  position: relative;
+  box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+  z-index: 1;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  display: inline-block;
+}
+
+.card-number {
+  margin-top: 0.8rem;
+}
+
+.card-circle {
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 22px;
+  font-size: 12px;
+  height: 25px;
+  text-align: center;
+  width: 25px;
+  margin-bottom: 0.9rem;
+}
+.card-img-top {
+  width: 50%;
+  margin: 0 auto;
+}
+.card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 468px) {
+  .container {
+    width: 100%;
+  }
+  .card-img-top {
+    width: 100%;
+  }
+  .nav-link {
+    font-size: 1.1rem;
+  }
+}
